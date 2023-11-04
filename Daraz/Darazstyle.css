@@ -1,0 +1,418 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+.darazweb {
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerdiv {
+  background-color: orange;
+  width: auto;
+  height: auto;
+ }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   padding: 10px;
+ }
+.headlist {
+   color: white;
+   margin: 10px;
+   display: inline-flex;
+}
+.headlist:hover {
+color:black;
+cursor: pointer;
+}
+#darazbtn {
+   background-color: darkgray;
+   border-radius: 0.5rem;
+   color: white;
+   margin-left: 60rem;
+   margin-top: -3rem;
+   width: 10rem;
+   height:2.2rem;
+   font-size: 0.8rem;
+}
+#darazbtn:hover {
+    cursor: pointer;
+}
+#darazbtnimg {
+    width: 20px;
+    margin-right: 5px;
+}
+#Darazimg {
+    max-width: 100%;
+    height: auto;
+}  
+header{
+flex-direction: column;
+align-items: flex-start;
+}
+#input{
+  width: 39rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 20rem;
+  margin-top: -3rem;
+}
+#login{
+    margin-top: -2rem;
+    margin-left: 62rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+a:hover{
+    background-color: gainsboro;
+    border-radius: 3px;
+    border: 2px solid gainsboro;
+}
+#lang{
+    margin-top: -2.5rem;
+    margin-left: 68rem;
+    border: none;
+    width: 2.6rem;
+    background-color:blanchedalmond;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#cart{
+    width: 2rem;
+    margin-left: 74rem;
+    margin-top: -1.4rem;
+}
+.collection{
+    list-style: none;
+    border: 2px solid white;
+    background-color: white;
+    margin-left: 1rem;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18rem;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+#items{
+    margin-top: 5px;
+    text-align:left;
+}
+#items:hover{
+background-color: gainsboro;
+color: orange;
+cursor: pointer;
+}
+.item{
+    margin-bottom: 10px;
+}
+#carouselExampleIndicators{
+    width: 64rem;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+#crousalimg{
+    height: 27rem;
+    border-radius: 20px;
+}
+.benefit{
+border-bottom: none;
+border-left: none;
+border-top: none;
+margin-left: 3rem;
+background-color:rgb(255, 213, 128);
+border-color: white;
+font-weight: bold;
+}
+#benefitdiv{
+border: 2px solid none;
+margin-left: 1rem;
+background-color: rgb(255, 213, 128);
+width: 83rem;
+border-radius: 8px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.benefit:hover{
+color: orangered;
+}
+#Verified{
+    border: none;
+}
+#categorydiv{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border: 2px solid white;
+    background-color: white;
+    width: 100rem;
+    border-radius: 15px;
+}
+.Categories{
+    width: 7.5rem;
+    margin-top: 10px;
+    margin-left: 1.3rem;
+}
+.Categories:hover{
+    cursor: pointer;
+}
+.categoryname{
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 13px;
+}
+.categoryname:hover{
+    color:orangered;
+    cursor: pointer;
+}
+#fashion,#beauty{
+    margin-left: 6.5rem;
+}
+#home{
+    margin-left: 5.5rem;
+}
+#lowprice{
+    margin-left: 2.8rem;
+}
+#likenew{
+    margin-left: 2.4rem;
+}
+#flash{
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+#cardimg{
+    height: 10rem;
+}
+#cardone{
+    margin-left: 2rem;
+    margin-top: 10px;
+    display: flex;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#cardtwo{
+    margin-left: 18.5rem;
+    display: flex;
+    margin-top: -22.5rem
+}
+#cardthree{
+    margin-left: 35rem;
+    display: flex;
+    margin-top: -23rem
+}
+#cardfour{
+    margin-left: 51rem;
+    display: flex;
+    margin-top: -23rem
+}
+#cardfive{
+    margin-left: 68rem;
+    display: flex;
+    margin-top: -23rem
+}
+#price{
+    color: orangered;
+    font-size: 1.3rem;
+}
+s{
+    font-size: 15px;
+}
+.card{
+    height: 23rem;
+}
+#buybtn{
+    margin-left: 4rem;
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+}
+.card-text:hover{
+color: orangered;
+}
+#categories{
+    margin-left: 2rem;
+}
+#categoryimg{
+    width: 6rem;
+    margin-top: 10px;
+}
+.categorybtn{
+    width: 10rem;
+    margin-left: 2rem;
+    height: 12rem;
+    border: none;
+    background-color: white;
+}
+.categorybtn:hover{
+    box-shadow: 2px 2px 3px black;
+    color: orangered;
+}
+.categorybtntwo:hover{
+    box-shadow: 2px 2px 3px black;
+    color: orangered;
+}
+#title{
+    margin-top: 6px;
+}
+.darazweb{
+    margin: 0 auto;
+}
+.categorybtntwo{
+    width: 10rem;
+    height: 12rem;
+    border: none;
+    background-color: white;
+}
+.foryou{
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+.foryoucard{
+    height: 24rem;
+    background-color: white;
+    margin-left: 2rem;
+}
+#foryoucardone{
+    display: inline-block;
+}
+#foryoucardtwo{
+    display: inline-block;
+}
+#foryoucardthree{
+    display: inline-block;
+}
+#foryouimg{
+    width: 14rem;
+    height: 13rem;
+}
+.foryoucard:hover{
+    box-shadow: 2px 2px 3px 2px black;
+    cursor: pointer;
+}
+#foryoucardfour{
+    margin-top: 1rem;
+    display: inline-block;
+}
+#loadbtn{
+margin-top: 3rem;
+width: 25rem;
+height: 2.5rem;
+margin-left: 27rem;
+border-color: orangered;
+color: orangered;
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.footerheading{
+    display: inline-flex;
+    margin-top: 3rem;
+    color: orangered;
+    font-size: 1.4rem;
+    margin-left: 7rem;
+    margin-bottom: 0;
+}
+#darazheading,#darazinternational,#makemoney{
+    margin-left: 11rem;
+}
+#help{
+    margin-left: 6rem;
+    display: inline-flex;
+}
+#about{
+    margin-left: 13rem;
+    display: inline-flex;
+}
+#pak{
+    display: inline-flex;
+    margin-left: 12.8rem;
+}
+#bang{
+    display: inline-flex;
+    margin-left: 1rem;
+}
+#uni{
+    display: inline-flex;
+    margin-left: 14rem;
+}
+#buy{
+    display: inline-flex;
+    margin-left: 6rem;
+}
+#payments{
+    display: inline-flex;
+    margin-left: 11rem
+}
+#sri{
+    display: inline-flex;
+    margin-left: 12rem;
+}
+#myanmar{
+    display: inline-flex;
+    margin-left: 1rem;
+}
+#sell{
+    display: inline-flex;
+    margin-left: 15rem; 
+}
+#shop{
+    display: inline-flex;
+    margin-left: 6rem;
+}
+#donates{
+    display: inline-flex;
+    margin-left: 12rem;
+}
+#nepal{
+    display: inline-flex;
+    margin-left: 15rem;
+}
+#program{
+    display: inline-flex;
+    margin-left: 17rem;
+}
+#return{
+    display: inline-flex;
+    margin-left: 3.4rem;
+}
+#blog{
+    display: inline-flex;
+    margin-left: 11.8rem; 
+}
+#contact{
+    display: inline-block;
+    margin-left: 6rem;
+    list-style: none;
+}
+#terms{
+    display: inline-flex;
+    margin-left: 12rem;
+}
+#protection{
+    display: inline-block;
+    margin-left: 4.7rem;
+    list-style: none;
+}
+#privacy{
+    display: inline-flex;
+    margin-left: 10rem;
+}
+#follow{
+    margin-left: 68rem;
+    margin-top: -2rem;
+}
+#appsimg{
+    margin-left: 66rem;
+    width: 12rem;
+}
+#appsimg:hover{
+    cursor: pointer;
+}
+.footlist:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

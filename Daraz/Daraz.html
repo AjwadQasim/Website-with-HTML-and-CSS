@@ -1,0 +1,316 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="Darazstyle.css">
+<title>Daraz</title>
+<link rel="icon" href="daraz btn.webp">
+</head>
+<body>
+<div class="darazweb">
+<div class="headerdiv">
+<header>
+<ul>
+ <li class="headlist">Become a Seller</li>
+ <li class="headlist">Daraz Affiliate Program</li>
+ <li class="headlist">Help and Support</li>
+<button id="darazbtn"><img src="daraz btn.webp" id="darazbtnimg">Save More on App</button>
+</ul>
+<img src="daraz logo.png" id="Darazimg" alt="Daraz Logo">
+<input type="text" name="" id="input" placeholder="SEARCH">
+<p id="login"><a href="darazLogin.html">LOGIN</a></p>
+<select id="lang">
+<option>EN/English</option>   
+<option>UR/Urdu</option>   
+</select>
+<img src="data:image/jpeg;base64,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" alt="" id="cart">
+</header>
+</div>
+<div class="sliderdiv">
+<ul class="collection">    
+ <li id="items">Groceries and Pets</li>
+ <li id="items">Healthy & Beauty</li>
+ <li id="items">Men's Fashion</li>
+ <li id="items">Women's Fashion</li>
+ <li id="items">Mother & Baby</li>
+ <li id="items">Home & Lifestyle</li>
+ <li id="items">Electronic Devices</li>
+ <li id="items">Electronic Accessories</li>
+ <li id="items">TV & Home Appliances</li>
+ <li id="items">Sports & Outdoor</li>
+ <li id="items">Watches,Bags & Jewellery</li>
+ <li id="items" class="item">Automotive & Motorbikes</li>   
+</ul> 
+</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5 " aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="crousalimg1.jpg" class="d-block w-100" alt="..." id="crousalimg">
+    </div>
+    <div class="carousel-item">
+      <img src="crousalimg2.jpg" class="d-block w-100" alt="..." id="crousalimg">
+    </div>
+    <div class="carousel-item">
+      <img src="crousalimg3.jpg" class="d-block w-100" alt="..." id="crousalimg">
+    </div>
+    <div class="carousel-item">
+      <img src="crousalimg4.jpg" class="d-block w-100" alt="..." id="crousalimg">
+    </div>
+    <div class="carousel-item">
+      <img src="crousalimg5.jpg" class="d-block w-100" alt="..." id="crousalimg">
+    </div>
+    <div class="carousel-item">
+      <img src="crousalimg6.jpg" class="d-block w-100" alt="..." id="crousalimg">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div id="benefitdiv">
+   <button class="benefit">Safe Payments</button>
+   <button class="benefit">Nationwide Delivery</button>
+   <button class="benefit">Free & Easy Returns</button>
+   <button class="benefit">Best Price Guaranteed</button>
+   <button class="benefit">100% Authentic Products</button>
+   <button class="benefit" id="Verified">Daraz Verified</button>
+</div>
+<div id="categorydiv">
+  <img src="https://icms-image.slatic.net/images/ims-web/1440c427-d3fe-49f7-aa90-09c8eb0b84ea.png" alt="" class="Categories" id="Mart">
+  <img src="https://icms-image.slatic.net/images/ims-web/4f250051-aac7-46bd-9bea-c5b836dea844.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/0ed92f69-d596-458b-bcd6-8d2bb69ef911.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/d85f0ced-6459-455a-8504-150655bf948c.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/cc89e68e-c809-4638-a5a6-2dc7e450d2a1.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/a13edb2b-61bf-4dec-a410-f85b63d41490.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/eaac2292-b2bd-4e83-81ff-40cb013b0b80.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/62624b46-f8ca-43b7-a5fa-1d31920a6eb5.png" alt="" class="Categories">
+  <img src="https://icms-image.slatic.net/images/ims-web/e7b9ee8c-1fbf-4548-ab35-db6eeca830a6.png" alt="" class="Categories">
+  <br>
+  <p class="categoryname">Mart</p>
+  <p class="categoryname" id="fashion">Fashion</p>
+  <p class="categoryname" id="beauty">Beauty</p>
+  <p class="categoryname" id="home">Home & Decor</p>
+  <p class="categoryname" id="delivery">Free Delivery</p>
+  <p class="categoryname" id="lowprice">Everyday Low Price</p>
+  <p class="categoryname" id="likenew">Daraz Like New</p>
+  <p class="categoryname" id="new">New on Daraz</p>
+  <p class="categoryname" id="sale">Flash Sale</p>
+</div>
+<div>
+  <h2 id="flash">Flash Sale</h2>
+  <div class="card" style="width: 15rem;" id="cardone">
+<img src="https://static-01.daraz.pk/p/a093cdda3b1798f18cac1c72d1c16237.jpg_200x200q75.jpg_.webp" class="card-img-top" alt="..." id="cardimg">
+<div class="card-body">
+  <p class="card-text">Underwater Waterproof Rainproof Mobile Case PVC...</p>
+  <p id="price">Rs.123</p>
+  <s>Rs.350</s><br>
+  <button id="buybtn">BUY NOW</button>
+</div>
+</div>
+<div class="card" style="width: 15rem;" id="cardtwo">
+<img src="https://static-01.daraz.pk/p/a8f3d75caf675e691cbc49fd48e57575.jpg_200x200q75.jpg_.webp" class="card-img-top" alt="..." id="cardimg">
+<div class="card-body">
+  <p class="card-text">Kurkure Chatni Chaska Rs.20-48 Pack Carton</p>
+  <p id="price">Rs.960</p>
+  <s>Rs.960</s><br>
+  <button id="buybtn">BUY NOW</button>
+</div>
+</div>
+<div class="card" style="width: 15rem;" id="cardthree">
+<img src="https://static-01.daraz.pk/p/2c7b9ba59a3ace097529262d973544c8.jpg_200x200q75.jpg_.webp" class="card-img-top" alt="..." id="cardimg">
+<div class="card-body">
+  <p class="card-text">Silicon Ocean Band Strap for Smart Watch Ultra 8 7 6 5 4...</p>
+  <p id="price">Rs.219</p>
+  <s>Rs.1000</s><br>
+  <button id="buybtn">BUY NOW</button>
+</div>
+</div>
+<div class="card" style="width: 15rem;" id="cardfour">
+  <img src="https://static-01.daraz.pk/p/c46ddf32418a2ada555e4b73385716e4.jpg" class="card-img-top" alt="..." id="cardimg">
+  <div class="card-body">
+    <p class="card-text">Erasable Pen Blue Ink Refill Ballpoint Pen for School ...</p>
+    <p id="price">Rs.102</p>
+    <s>Rs.190</s><br>
+    <button id="buybtn">BUY NOW</button>
+</div>
+</div>
+<div class="card" style="width: 14rem;" id="cardfive">
+<img src="https://static-01.daraz.pk/p/23d806428b9446b4f17a6bd96f54bfdc.png" class="card-img-top" alt="..." id="cardimg">
+<div class="card-body">
+  <p class="card-text">Smart Quality Square Digital Silicon Sports ...</p>
+  <p id="price">Rs.102</p>
+  <s>Rs.190</s><br>
+  <button id="buybtn">BUY NOW</button>
+</div>
+</div>
+<div class="categoriesdiv">
+  <h2 id="categories">Categories</h2>
+  <button class="categorybtn">
+  <img src="https://static-01.daraz.pk/p/45eb2dcee40f7ada999d2c5b3544992f.jpg" alt="" id="categoryimg">
+  <p id="title">Moisturizers</p>
+  </button>
+  <button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/f34ba45c4d7c663fa8e01c34794c7317.jpg" alt="" id="categoryimg">
+  <p id="title">Wireless Earbuds</p>
+</button>
+<button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/0864cb1c16e2a9110b3f1327994207f5.jpg" alt="" id="categoryimg">
+  <p id="title">Wall Decor</p>
+</button>
+<button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/5123606c0bc56ec730bd84b9141f8022.jpg" alt="" id="categoryimg">
+  <p id="title">Shoes Accessories</p>
+</button>
+<button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/e0ca53e976a06e664e1579a5a44fa3d2.jpg" alt="" id="categoryimg">
+  <p id="title">Door Locks</p>
+</button>
+<button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/6607cc3c7e43216f645cd50cce8c477f.jpg" alt="" id="categoryimg">
+  <p id="title">Fans Accessories</p>
+</button>
+<button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/8bb14d726547b9fa0ef83f27d6c43412.jpg" alt="" id="categoryimg">
+  <p id="title">Socks</p>
+</button>
+<button class="categorybtntwo">
+  <img src="https://static-01.daraz.pk/p/b145e8ed962824fe74572684d154d52d.jpg" alt="" id="categoryimg">
+  <p id="title">Tarvel Size Bottels</p>
+</button>
+</div>
+<div>
+<h2 class="foryou">Just For You</h2>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardone">
+  <img src="https://static-01.daraz.pk/p/cb520eb1ebd8b330a8d832ef40479e1a.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">M10 TWS T & i7s / i12 Wireless Headphones ...</p>
+  <p id="price">Rs. 1,090</p>
+  <s>Rs. 5,000</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardtwo">
+  <img src="https://static-01.daraz.pk/p/b8dd84f0da1a6bff50d74611d5872c04.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">Women & Men LED Digital Watches Sport Silicon ...</p>
+  <p id="price">Rs. 249</p>
+  <s>Rs. 500</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardthree">
+  <img src="https://static-01.daraz.pk/p/37cc11c57b4adac7fa1565e42413ff12.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">iPhone headphone 2 in 1 Jack Adapter Lighting to ...</p>
+  <p id="price">Rs. 399</p>
+  <s>Rs. 500</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardthree">
+  <img src="https://pk-live-21.slatic.net/kf/Sedf48789d0ba43a7b5e49dfa108be044R.jpg" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">Magnetic Cahrging Cable for mobiles. high quality...</p>
+  <p id="price">Rs. 175</p>
+  <s>Rs. 230</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardthree">
+  <img src="https://static-01.daraz.pk/p/b3c5f39beb760c843624bae15eba4c6c.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">Ultra Slim Dual Mode 5.1 Bluetooth Mouse ...</p>
+  <p id="price">Rs. 785</p>
+  <s>Rs. 1,499</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardfour">
+  <img src="https://static-01.daraz.pk/p/6ec4ebc1dba2f935bbffd1c127848c50.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">i8 Pro Max Smart Watch Series 8 || 1.75" Full Screen.</p>
+  <p id="price">Rs. 1,499</p>
+  <s>Rs. 2,999</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardfour">
+  <img src="https://static-01.daraz.pk/p/52589bd7377cc935b5d1395e8f659e7b.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">The Dark Night Batman Printed Cotton Half Sleeve.</p>
+  <p id="price">Rs. 399</p>
+  <s>Rs. 599</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardfour">
+  <img src="https://static-01.daraz.pk/p/475387a9add6eeeeee7e8ce2b266f5ee.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">Manual Water Pump for 19 Liters Cans Large - Bottle ...</p>
+  <p id="price">Rs. 419</p>
+  <s>Rs. 550</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardfour">
+  <img src="https://static-01.daraz.pk/p/109f04948838573f56550860d7551f5b.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">Pair of Rubber Coated Dumbbells ZEE MAX ...</p>
+  <p id="price">Rs. 799</p>
+  <s>Rs. 999</s>
+</div>
+</div>
+<div class="foryoucard" style="width: 14rem;" id="foryoucardfour">
+  <img src="https://static-01.daraz.pk/p/9ba665d5de714b0c19a011e7b26f4ae3.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="..." id="foryouimg">
+  <div class="card-body">
+  <p class="card-text">Universel Turbo Flex Splash 360 degree tap ...</p>
+  <p id="price">Rs. 299</p>
+  <s>Rs. 399</s>
+</div>
+</div>
+<button id="loadbtn">LOAD MORE</button>
+</div>
+<footer>
+<div class="footerdiv">
+  <p class="footerheading">Customer Care</p>
+  <p class="footerheading" id="darazheading">Daraz</p>
+  <p class="footerheading" id="darazinternational">Daraz International</p>
+  <p class="footerheading" id="makemoney">Make Money With Us</p>
+<ul class="footeruo">
+  <li class="footlist" id="help">Help Center</li>
+  <li class="footlist" id="about">About Us</li>
+  <li id="pak" class="footlist">Pakistan</li>
+  <li id="bang" class="footlist">Bangladesh</li>
+  <li id="uni" class="footlist">Daraz University</li>
+  <li id="buy" class="footlist">How To Buy</li>
+  <li id="payments"class="footlist">Digital Payments</li>
+  <li id="sri"class="footlist">Srilanka</li>
+  <li id="myanmar"class="footlist">Myanmar</li>
+  <li id="sell"class="footlist">Sell on Daraz</li>
+  <li id="shop"class="footlist">Daraz Shop</li>
+  <li id="donates"class="footlist">Daraz Donates</li>
+  <li id="nepal"class="footlist">Nepal</li>
+  <li id="program"class="footlist">Join Daraz Affiliate Program</li>
+  <li id="return"class="footlist">Returns and Refunds</li>
+  <li id="blog"class="footlist">Daraz Blog</li>
+  <br>
+  <li id="contact"class="footlist">Contact Us</li>
+  <li id="terms"class="footlist">Terms & Conditions</li>
+  <br>
+  <li id="protection"class="footlist">Purchase Protection</li>
+  <li id="privacy"class="footlist">Privacy Policy</li>
+  <p class="footerheading" id="follow">Follow Us</p>
+  <img src="data:image/jpeg;base64,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i2O3ce4zJieXsa9pa4ZFfQSDcKLVKbU2sbgj/wCuDMpMrVBqIB5jX5Tc18OtQWYfmORmoxGSG+iQeGz/AIlBJRVVMSadxI7tem/wCnNmikH9wZroq5fqD6Cef5zWYrPKqmynT/e/Od+KybV/qyeWv4TTYnIGJqGy0WHMhR5me6Werc60hd4j8Kyp4aM5v2bc/wArWZbz6xTqUXQp31E0wQ3RiTbmLGaLN3IVbHVQFBte9RzfRA3knfwG/wATJtk7s80mDYioPs09p5sw1dB1k4yfgaeHRadJAijYB8Sd54maFj9ltt6mS4xS0cRjomjaO8DIHxzcRu3d5XDJOTkw1JKNMWVRbiTvY8TtmdETwsm5xcS5xuTmkREL4kgme2bBctiaK3J11UG0/WH4jr3ydxO9PUPgfts/2o9TTMqIzG/8g8QqGn1WI2G3KWllvNKjiSXX5uod4F1J4jv4i3WRDG5lYumfVRag71YfA2M0cGJQSDM7J4H50WUqMKqITkNocRn5aj7mo3E2v/TeL2fJn+7+MzsHmViqh9ZBTHezD4C5kl9TE3Nzx1CjMo53GzYz0IUck6zKzZN1xNVbW100O0nc54d3jz2+Q8zqOHIdvnHGwkWUHvC9/E36SUSlrcUD2mOHQ6n43+OqvsPwgxuEk2u4cO88fTmkREplfJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCJERCL//2Q==" id="appsimg">
+</ul>  
+</div>  
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
